@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>StopWatch</title>
+</head>
+<body>
+    <div class="main">
+        <div class="child">
+            <div class="heading">
+                <h1>StopWatch</h1>
+            </div>
+            
+            <div id="timer">
+                <p id="hrs">00</p><span>:</span>
+                <p id="min">00</p><span>:</span>
+                <p id="sec">00</p>
+            </div>
+            <div class="buttons">
+                <button class="start" onclick="start()"><i class="ri-play-fill"></i></button>
+                <button class="Stop" onclick="Stop()"><i class="ri-pause-line"></i></button>
+                <button class="Reset" onclick="Reset()"><i class="ri-restart-line"></i></button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

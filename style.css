@@ -1,0 +1,57 @@
+.main{
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    background-color: #C07F00;
+    width: 400px;
+    height: 400px;
+    
+    justify-content: center;
+    display: block;
+}
+.heading{
+display: flex;
+justify-content: center;
+}
+.heading h1{
+    height: 50px;
+    width: 80%;
+    font-size:xx-large;
+    border:  outset rgb(158, 81, 81);
+   display: grid;
+   place-items: center;
+   color: rgb(101, 13, 13);
+}
+#timer{
+    display: grid;
+    place-items: center;
+   grid-template-columns: auto auto auto auto auto ;
+
+    margin: 30px;
+    border: 1px solid rgba(26, 2, 2, 0.032);
+}
+#timer p{
+    font-size: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    
+    
+}
+.buttons button{
+    background-color: wheat;
+    font-size: 25px;
+    border: outset;
+    cursor: pointer;
+    color: #C07F00;
+}
+
+.buttons :hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
